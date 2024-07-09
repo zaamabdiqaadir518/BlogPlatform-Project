@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+    font-family: 'Inter, sans-serif';
+}
+
+.active{
+    @apply text-orange-500 underline underline-offset-2
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.pagination li{
+    margin: 0 5px;
+}
+.pagination a{
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #000;
+}
+.pagination a:hover{
+    background-color: #eee;
+}
+.pagination li.activePagination{
+    background-color: orange;
+    border-radius: 4px;
+    color: #fff;
+}
+.active-button{
+    color: rgb(255, 123, 0);
+}
+.about{
+    font-size: 3rem /* 48px */;
+    line-height: 1;
+    line-height: 1.375;
+    font-weight: 700;
+    text-align: center;
+    margin-top: -300px;
+    color: white;
+
+}
+
+
+
+.isku-heyso{
+    color: white;
+    background-color: white;
+    
+}
+.Header{
+    
+    color: #000;
+    text-align: center;
+}
+.Header h1{
+    color: rgb(233, 123, 32);
+    font-size: 45px;
+}
+.box-parent{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.boxes{
+ 
+    width: 200px;
+    height: 250px;
+    background-color: rgba(17, 13, 13, 0.954);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 18px;
+    margin: 20px;
+}
+.boxes h1{
+    font-size: 55px;
+}
+
+
+
+/* About */
+/* 
+.about-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 2rem;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    
+}
+.about-img img{
+    width: 100%;
+
+}
+.about-text span{
+    font-weight: 500;
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+.about-text p{
+    margin: 0.5rem 0 1.4rem;
+}
+.about-text .btn{
+    padding: 10px 20px;
+    background: #474fa0;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+.about-text .btn:hover{
+    background: var(--main-color);
+} */
+
